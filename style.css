@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#email-template {
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    font-size: 15px;
+    height: 100vh;
+    
+}
+
+button {
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    height: 40px;
+    margin: 25px 0px 25px 0px;
+    width: 150px;
+}
+
+#nav {
+    background-color: rgb(111, 78, 55);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    padding: 20px;
+
+}
+
+.greeting {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.row .greeting{
+    flex-wrap: nowrap;
+}
+
+
+.greeting i {
+    font-size: 50px;
+    padding-left: 15px;    
+}
+
+.name {
+    align-self: center;
+    padding-top: 10px;
+
+}
+
+
+#conversations {
+    background-color: rgb(245, 245, 220);
+    display: flex;
+    flex-direction: column; 
+    min-width: min-content;
+    padding: 20px;
+      
+}
+
+#search {
+    display: flex;
+    color: silver;
+    flex-wrap: nowrap;
+    padding-bottom: 25px;
+}
+
+#search i{
+    background-color: white;
+    padding-left: 10px;
+    
+}
+
+#search ::placeholder {
+    color: silver;
+}
+
+#search input {
+    border: none;
+    padding-left: 10px;
+    width: 100%;
+    
+}
+
+.message {
+    border: 10px ridge rgb(111, 78, 55);;
+    margin: 10px 0px 10px 0px;
+    min-width: fit-content;
+}
+
+.message-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    min-width: fit-content;
+}
+
+.message-header time {
+    min-width: max-content;
+}
+
+
+
+#preview {
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+#to {
+    margin-bottom: 0;
+}
+
+.action {
+    color: silver;
+}
+
+.preview-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.preview-heading-actions {
+    min-width: max-content;
+}
+.preview-heading .fa {
+    margin-right: .25rem;
+}
+
+.reply-item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#reply {
+    margin: 0;
+}
+
+.menu :hover {
+    color: silver;
+}
+
+#conversations :hover {
+    background-color: white;
+}
